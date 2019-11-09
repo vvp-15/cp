@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 20px;
+}
+.container h1{
+    font-family: verdana;
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.container h1 +p{
+    width: 60%;
+    margin: 0 auto 50px;
+    color: #fff;
+    font-family: sans-serif;
+}
+.price-table{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex: 35%;
+    padding: 10px;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+.tab{
+    background: darkgray;
+    padding: 50px 20px;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 5px #333;
+}
+.tab h2{
+    text-transform: uppercase;
+}
+.tab ul{
+    margin: 0;
+    padding: 0;
+
+}
+.tab ul li{
+    padding: 10px;
+    list-style: none;
+
+}
+.tab a{
+    text-decoration: none;
+    color: #2c3e50;
+    border: 2px solid #2c3e50;
+    display: block;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 40px;
+    font-size: 15px;
+    transition: 0.5s linear;
+
+}
+.tab a:hover{
+    background: dodgerblue;
+    color: #fff;
+
+}
+.price{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
