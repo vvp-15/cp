@@ -20,6 +20,7 @@ nav ul li{
 }
 .right{
     float:right;
+    font-size: 25px;
 }
 a{
     color:white;
@@ -35,8 +36,8 @@ a:hover
 .brand{
     float: left;
     font-size:20px;
-    left:10px;
-    padding-right: 30px;
+    left:20px;
+    padding-right: 0px;
 }
 .brand:hover{
     color:white;
@@ -88,3 +89,37 @@ a:hover
     background-color: rgb(14, 162, 207);
     color: white;
   } 
+  .fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa-facebook{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:1px 1px;
+    border-radius: 50%;
+}
+.fa-twitter{
+     font-size: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:1px 1px;
+    border-radius: 50%;
+}
+
+.fa-instagram{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding:1px 1px;
+    border-radius: 50%;
+
+}
